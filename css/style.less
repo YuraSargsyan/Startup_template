@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    a {
+        text-decoration: none;
+    }
+}
+
+header {
+    top: 0;
+    background-attachment: fixed;
+    background-color: #fff;
+    height: auto;
+    width: 100%;
+    display: inline-block;
+    z-index: 9;
+    position: fixed;
+    .logo {
+        float: left;
+        padding-top: 20px;
+        padding-right: 15px;
+        padding-bottom: 20px;
+    }
+
+    .nav_bar {
+        float: right;
+        padding: 20px;
+    }
+
+    a {
+        color: black;
+        padding: 0 15px;
+        letter-spacing: 5px;
+        &:hover {
+            background-color: #ccc;
+            padding: 20px 15px;
+            letter-spacing: 5px;
+        }
+    }
+}
+
+.macbook {
+    background-image: url('https://www.w3schools.com/w3images/mac.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: auto;
+    height: 100vh;
+    padding-top: 50px;
+    color: green;
+    display: flex;
+    justify-content: center;
+    flex-flow: column wrap;
+    align-content: flex-start;
+    
+    .start {
+        padding: 40px;
+        line-height: 80px;
+        color: #fff;
+        > h1 {
+            font-size: 65px;
+        }
+        > p {
+            font-size: 20px;
+        }
+        > a {
+            background-color: #ccc;
+            padding: 20px;
+            font-size: 18px;
+            color: black;
+        }
+        
+    }
+}
+
